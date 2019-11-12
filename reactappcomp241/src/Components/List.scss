@@ -1,0 +1,31 @@
+.list{
+    display: flex;
+    flex-direction: column;
+}
+i{
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+
+    input{
+        margin: 20px;
+    }
+}
+.completed{
+    border: 2px solid green;
+    padding: 5px;
+    margin: 5px;
+    p{
+        text-decoration: line-through;
+    }
+}
+
+.notCompleted{
+    border: 2px solid red;
+    padding: 5px;
+    margin: 5px;
+
+}
